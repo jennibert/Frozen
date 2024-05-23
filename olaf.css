@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+body{
+   font-family: "Chakra Petch", sans-serif;
+    background-image: linear-gradient(to top, #d0f4de 20%, #fcf6bd 60%);  
+color: #666666;
+margin: 0;
+text-shadow: -1px 0px 2px #778da9
+}
+
+nav{ 
+  text-align: center;
+  font-size: 1.5rem;
+  margin: 0; 
+  background-color: #fed766;
+  padding: 10px 0;
+  font-family: "Acme", sans-serif;
+}
+nav a{text-decoration:none;}
+
+nav a:link       
+{ color: #073b4c; }
+nav a:visited 
+{ color: #344873; }
+nav a:hover     
+{ color: #A52A2A; }
+nav a { 
+display: inline-block;
+margin-left: 20px;
+margin-right: 20px;  
+}
+
+main{
+  color:black;
+  margin:auto;
+  width:90%;
+  display:incline-block;  
+}
+
+.right{
+display: inline-block;
+float:right;
+}
+header{
+  background-color:#457b9d;
+  padding:1em;
+  color:white;
+  text-align: center;
+   background-image: url(https://pngimg.com/uploads/snow/snow_PNG10.png);
+}
+p{
+  text-align:left;
+  margin:0;
+  width:75%;
+  font-family: "Chakra Petch", sans-serif;
+}
+footer{
+  font-style: italic;
+padding: 1em;
+text-align: center;
+  color:black;
+  text-shadow: -1px 0px 2px #778da9;
+  margin:0; 
+  border-top: 1px solid black;
+}
